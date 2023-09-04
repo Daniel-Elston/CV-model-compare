@@ -1,0 +1,24 @@
+{
+    "Performance Metrics": {
+        "F1 Score": 0.8608284925847866,
+        "Precision": 0.8610112265676532,
+        "Recall": 0.8610615141960426,
+        "Accuracy": 0.86
+    },
+    "Class Accuracy Metrics": {
+        "Class 0": 0.7980952380952381,
+        "Class 1": 0.8227848101265823,
+        "Class 2": 0.8642714570858283,
+        "Class 3": 0.8980392156862745,
+        "Class 4": 0.9662447257383966,
+        "Class 5": 0.816933638443936
+    },
+    "Computational Metrics": {
+        "Inference Time": 7.455022573471069,
+        "Total Parameters": 86589638
+    },
+    "Complexity Metrics": {
+        "Total Parameters": 86589638,
+        "Accuracy": 0.86
+    }
+}
