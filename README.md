@@ -1,3 +1,5 @@
+![](https://github.com/Daniel-Elston/CV-model-compare/blob/master/raw_images.png)
+
 Computer Vision Model Comparison
 ==============================
 
