@@ -1,7 +1,9 @@
-CV_Model_Compare
+Computer Vision Model Comparison
 ==============================
 
-A comparison of self made CV classification models and pre-trained models
+A comparative study of CV models in PyTorch, contrasting a custom-built CNN with established architectures like EfficientNet and ResNet. Also explores the advantages of pre-trained models and transfer learning.
+
+Raw Data: `https://www.kaggle.com/datasets/puneet6060/intel-image-classification`
 
 Project Organization
 ------------
@@ -28,6 +30,7 @@ Project Organization
     ├── src                <- Source code for use in this project.
     │   ├── __init__.py    <- Makes src a Python module
     │   ├── pipeline.py    <- Central pipeline class integrating directory scripts
+    │   ├── my_utils.py    <- My utility functions
     │   │
     │   ├── data           <- Scripts to download or generate data
     │   │   └── make_dataset.py
@@ -36,9 +39,10 @@ Project Organization
     │   │   └── build_features.py
     │   │
     │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
+    │   │   │                 predictions and generate evaluation metrics
     │   │   ├── predict_model.py
     │   │   └── train_model.py
+    │   │   └── evaluate_model.py
     │   │
     │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
     │       └── visualize.py
